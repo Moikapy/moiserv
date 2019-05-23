@@ -19,14 +19,14 @@
 		"jquery": "^3.4.1",
 		"lodash": "^4.17.11",
 		"socket.io": "^2.2.0",
-		"socket.io-client": "^2.2.0"
-	},
-	"devDependencies": {
+		"socket.io-client": "^2.2.0",
 		"@babel/cli": "^7.4.4",
 		"@babel/core": "^7.0.0",
 		"@babel/node": "^7.4.5",
 		"@babel/preset-env": "^7.4.5",
-		"@babel/register": "^7.4.4",
+		"@babel/register": "^7.4.4"
+	},
+	"devDependencies": {
 		"yarn": "^1.16.0"
 	}
 }
