@@ -1,15 +1,16 @@
 {
-  "name": "moiserv",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Moikapy/moiserv.git",
-  "author": "Warren Gates <warrenckhan@gmail.com>",
-    "engines": {
-    "node": "10.x"
-  },
-  "license": "MIT",
-  	"scripts": {
-		"start":"node index.js"
+	"name": "moiserv",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Moikapy/moiserv.git",
+	"author": "Warren Gates <warrenckhan@gmail.com>",
+	"engines": {
+		"node": "10.x"
+	},
+	"license": "MIT",
+	"scripts": {
+		"compile": "babel index.js -d build",
+		"start": "yarn compile && node build/index.js"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
