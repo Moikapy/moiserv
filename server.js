@@ -1,10 +1,14 @@
 import dotenv from "dotenv";
+import cors from 'cors'
 dotenv.config();
 var app = require("express")();
 var http = require("http").createServer(app);
 var io = require("socket.io")(http);
 
 const port = process.env.PORT || 5000;
+
+app.use(cors())
+
 app.get("/", function(req, res) {
 	res.send("<h1>Hello world</h1>");
 });
