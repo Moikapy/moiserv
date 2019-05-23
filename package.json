@@ -1,0 +1,30 @@
+{
+  "name": "moiserv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Moikapy/moiserv.git",
+  "author": "Warren Gates <warrenckhan@gmail.com>",
+  "license": "MIT",
+  	"scripts": {
+		"start":"node"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.0.0",
+		"express": "^4.17.0",
+		"jquery": "^3.4.1",
+		"lodash": "^4.17.11",
+		"socket.io": "^2.2.0",
+		"socket.io-client": "^2.2.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.0.0",
+		"@babel/node": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/register": "^7.4.4",
+		"electron": "^5.0.1",
+		"electron-reload": "^1.4.0",
+		"yarn": "^1.16.0"
+	}
+}
