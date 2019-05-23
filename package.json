@@ -1,7 +1,7 @@
 {
   "name": "moiserv",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "repository": "https://github.com/Moikapy/moiserv.git",
   "author": "Warren Gates <warrenckhan@gmail.com>",
     "engines": {
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   	"scripts": {
-		"start":"node server.js"
+		"start":"node index.js"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
